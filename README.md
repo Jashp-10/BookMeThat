@@ -1,2 +1,2 @@
-# MybooKingsApp
-A full stack movie booking application - using react, node.js, postgres and also handles concurrency condition between multiple users
+# BookMeThat
+A booking application similar to BookMyShow. Also handles concurrency (race conditions) between multiple users 
