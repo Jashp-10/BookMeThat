@@ -1,0 +1,46 @@
+/* src/pages/MoviePage.css */
+.movie-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .movie-details {
+    display: flex;
+  }
+  
+  .movie-poster {
+    width: 300px;
+    height: auto;
+  }
+  
+  .movie-info {
+    margin-left: 20px;
+  }
+  
+  .movie-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .movie-description {
+    font-size: 1.2em;
+  }
+  
+  .time-slots {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .time-slots h2 {
+    margin-bottom: 10px;
+  }
+  
+  .time-slots button {
+    margin: 5px 0;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  

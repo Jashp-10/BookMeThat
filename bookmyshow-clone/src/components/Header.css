@@ -1,0 +1,22 @@
+/* src/components/Header.css */
+.header {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  .logo {
+    font-size: 1.5em;
+    color: white;
+  }
+  .search-bar {
+    padding: 5px;
+    font-size: 1em;
+  }
+  

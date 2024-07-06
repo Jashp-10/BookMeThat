@@ -1,0 +1,51 @@
+/* src/pages/SeatingPage.css */
+.seating-page {
+  padding: 20px;
+}
+
+.seats-grid {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.seat.booked {
+  background-color: red;
+  cursor: not-allowed;
+}
+
+.seat.reserved {
+  background-color: blue;
+}
+
+.seat.selected {
+  background-color: green;
+}
+
+.selection-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selection-info p {
+  margin: 0;
+}
+
+.selection-info button {
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}

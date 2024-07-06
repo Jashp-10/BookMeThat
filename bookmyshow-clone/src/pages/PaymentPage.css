@@ -1,0 +1,35 @@
+/* src/pages/PaymentPage.css */
+.payment-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.payment-details {
+  flex: 1;
+}
+
+.movie-poster {
+  width: 200px;
+  height: auto;
+}
+
+.movie-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.show-time, .selected-seats {
+  font-size: 1.2em;
+}
+
+.payment-action {
+  display: flex;
+  align-items: center;
+}
+
+.payment-action button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}

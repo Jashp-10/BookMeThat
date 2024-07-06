@@ -1,0 +1,16 @@
+/* src/components/MovieTile.css */
+.movie-tile {
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 150px;
+  }
+  .movie-poster {
+    width: 100%;
+    height: auto;
+  }
+  .movie-name, .movie-rating {
+    margin: 5px 0;
+  }
+  

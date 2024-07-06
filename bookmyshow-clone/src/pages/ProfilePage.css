@@ -1,0 +1,31 @@
+/* src/pages/ProfilePage.css */
+.profile-page {
+  padding: 20px;
+}
+
+.bookings {
+  margin-top: 20px;
+}
+
+.booking {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.movie-poster {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.booking-info {
+  flex: 1;
+}
+
+.booking-info h2 {
+  margin-bottom: 10px;
+}
+
+.booking-info p {
+  margin: 5px 0;
+}

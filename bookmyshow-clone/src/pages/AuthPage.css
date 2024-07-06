@@ -1,0 +1,33 @@
+/* src/pages/AuthPage.css */
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .auth-page form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .auth-page form h1 {
+    margin-bottom: 20px;
+  }
+  
+  .auth-page form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .auth-page form button {
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
